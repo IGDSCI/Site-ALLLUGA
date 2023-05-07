@@ -26,7 +26,7 @@ include_once('conexao.php');
         }
     }
 
-    $loginAtual = $_POST['login']; // aaaaaatualizando a variável $login com o novo valor
+    $loginAtual = $_POST['login']; // atualizando a variável $login com o novo valor
 
     header('Location: locatarioPerfil.php');
 
