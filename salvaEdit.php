@@ -9,7 +9,7 @@ include_once('conexao.php');
         $ID_Usuario = $_POST['ID_Usuario'];
         $login = $_POST['login'];
         $senha = $_POST['senha'];
-        $telefone = $_POST['telefone'];
+        $telefone = $_POST['telefone'];    
         $cpf = $_POST['cpf'];
         $sexo = $_POST['genero'];
         $dataNasc = $_POST['data_nascimento'];
